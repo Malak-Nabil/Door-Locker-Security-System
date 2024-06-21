@@ -6,13 +6,6 @@ This project implements a door locker security system using two ATmega32 microco
 ## Introduction
 The Door Locker Security System uses two ATmega32 microcontrollers to manage user interaction and system control. The system features a human-machine interface (HMI) with an LCD and keypad, and a control unit (Control_ECU) that handles password verification, door control, and alarm activation.
 
-## Functionalities
-• Distance Measurement: The HC-SR04 sensor sends an ultrasonic pulse and measures the time taken for the echo to return.
-
-• Distance Calculation: The ATmega32 microcontroller calculates the distance based on the time measured.
-
-• LCD Display: The calculated distance is displayed on a 16x2 LCD.
-
 
 ## Hardware Requirements
 
